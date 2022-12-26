@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-image: url("iamge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    position: fixed;
+    top: 150px;
+    left: 500px;
+    background-color: black;
+    opacity: 0.7;
+}
+ .head{
+   
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    opacity: 0.7;
+}
+.head h1{
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.form-control{
+    margin-left: 160px;
+    margin-top: 30px;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    color: white;
+}
+.form-control:focus{
+    border: 1px solid rgb(8, 219, 222);
+}
+.label-group{
+    color:white;
+    position: relative;
+    right: 155px;
+    top: -8px;
+    background-color: black;
+    opacity: 0.7;
+}
+.pass{
+    margin-top: 50px;
+    position:sticky;
+    left: 33%;
+    background: none;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    overflow: auto;
+
+
+
+}
+button{
+    position: absolute;
+    left: 45%;
+}
+.form p{
+    color: red;
+    font-size: 1em;
+    text-align: center;
+}
+#massages{
+    color: red;
+}
